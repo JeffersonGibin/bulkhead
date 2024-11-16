@@ -36,7 +36,7 @@ You can use it when your service has high processing demands and needs to isolat
 ## What are the advantages of using this pattern?
 
 - Improved system resilience: Isolates failures to prevent cascading issues across the system.
-- Avoids complete downtime: Keeps unaffected services running while others recover.
+- Avoids complete downtime: Keeps unaffected endpoints running while others recover.
 - Better resource management: Allocates resources to components to prevent monopolization.
 - Supports scalability: Allows scaling specific parts independently based on demand.
 
