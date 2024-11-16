@@ -1,5 +1,12 @@
 # Bulkhead
 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0075c872-c3b7-4d09-ad84-820c6d38b362" alt="bulkhead" />
+</p>
+
+
+
 * [Introduction](#introduction)
 * [What is it?](#what-is-it)
 * [Analogy](#analogy)
