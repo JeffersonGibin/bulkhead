@@ -33,10 +33,11 @@ Imagine a ship in a storm. If it has no walls inside to block the water (Bulkhea
 
 You can use it when your service has high processing demands and needs to isolate parts to avoid overloading the entire system. In this project, you can find an example of using this pattern in a very simple form. The code includes an asynchronous task pool where tasks are added to a queue and processed five at a time. The objective is to return an "unavailable" status when the endpoint "bulkhead" is executed five times concurrently. However, other system endpoints remain unaffected, ensuring no downtime for the rest of the system. Do you remember the analogy? Here, we are isolating only one part of the ship. This part can be overloaded without affecting the rest, keeping the service UP and running!
 
-## When to use
+## When to use ?
 
 - Improved system resilience: Isolates failures to prevent cascading issues across the system.
 - Avoids complete downtime: Keeps unaffected endpoints running while others recover.
+- When you need to isolate failures and keep the rest of the system running.
 
 ## When not to use?
 
