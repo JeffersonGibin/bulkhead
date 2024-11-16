@@ -21,7 +21,7 @@ This project was created to illustrate the Bulkhead pattern. Currently, it doesn
 
 ### What is it?
 
-The Bulkhead is a pattern used to prevent a service from overloading the server and causing downtime. The pattern is inspired by the concept of a bulkhead, which is a compartment in a ship.
+The Bulkhead pattern is a design approach used to prevent a service from overloading the server and causing downtime. The name is inspired by the concept of a bulkhead in a ship, which is a compartmentalized structure designed to contain damage or flooding to a specific area. Similarly, in software systems, the Bulkhead pattern ensures resilience and isolates failures, preventing issues in one part of the system from affecting the rest.
 
 ## Analogy
 
