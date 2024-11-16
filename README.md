@@ -48,7 +48,7 @@ You can use it when your service has high processing demands and needs to isolat
 
 The following example demonstrates how the idea was applied to an endpoint.
 
-![bulkhead](https://github.com/user-attachments/assets/541f28fa-6e46-4a59-b24e-32056efd3587)
+![bulkhead](https://github.com/user-attachments/assets/6e476b0d-92a0-4b0b-bd97-6c8fea0a8f4a)
 
 If we look at the image, we can imagine that each endpoint is like a compartment in a ship, and the service is the ship itself. 
 This way, if one compartment fills with water, it won't sink the whole ship.
