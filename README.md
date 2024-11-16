@@ -61,6 +61,8 @@ This way, if one compartment fills with water, it won't sink the whole ship.
   docker compose up
 ```
 
+- `npm run test`: executa N requests to endpoint `/bulkhead`
+
 ## Endpoints:
 
 - `http://localhost:3000/bulkhead` :  Simulates the Bulkhead pattern. You need to execute it multiple times to reach the limit.
