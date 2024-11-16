@@ -1,0 +1,22 @@
+{
+  "name": "bulkhead",
+  "version": "1.0.0",
+  "description": "This is simples project to simulate bulkhead pattern",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node ./build/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/async": "^3.2.24",
+    "@types/express": "^5.0.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "async": "^3.2.6",
+    "express": "^4.21.1"
+  }
+}
