@@ -61,7 +61,7 @@ This way, if one compartment fills with water, it won't sink the whole ship.
   docker compose up
 ```
 
-- `npm run test`: executa N requests to endpoint `/bulkhead`
+- `npm run test`: It executes N requests to the `/bulkhead` endpoint.
 
 ## Endpoints:
 
