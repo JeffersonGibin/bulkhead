@@ -43,6 +43,7 @@ You can use it when your service has high processing demands and needs to isolat
 ## Examples of Architecture
 
 
+![bulkhead](https://github.com/user-attachments/assets/541f28fa-6e46-4a59-b24e-32056efd3587)
 
 
 
